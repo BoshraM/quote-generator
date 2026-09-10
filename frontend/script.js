@@ -3,7 +3,7 @@ const authorElement = document.querySelector("#author");
 const button = document.querySelector("#new-quote-button");
 
 async function getQuote() {
-  const response = await fetch("http://127.0.0.1:3000/");
+  const response = await fetch("https://pafytkdin14bwihv0a1yg9kw.trainees.hosting.cyf.academy/");
 
   const data = await response.json();
 
